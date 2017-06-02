@@ -66,7 +66,7 @@
 .pull-quote .cite p {
   font-style: italic;
   font-family: 'Karla', serif;
-  font-size: 1.5em; }
+  font-size: 1em; }
 
 .video-container {
   position: relative;
@@ -83,12 +83,24 @@
   height: 100%; }
 
 .video-credit {
+  font-family: 'Karla', sans-serif;
   text-align: right;
   font-style: italic;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  font-size: 0.75em; }
 
 .video-transition {
   width: 100%; }
+
+.footer {
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  font-size: 0.75em; }
+
+.refer-logo {
+  display: block;
+  margin: auto;
+  height: 35px; }
 
 @media only screen and (max-width: 64em) {
   .pull-quote {
