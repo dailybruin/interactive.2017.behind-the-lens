@@ -22,8 +22,10 @@
       font-family: "Passion One", sans-serif;
       line-height: 0.75; }
     #header #header-text-container #author-text {
+      margin-top: 10px;
       font-size: 1.5em;
-      font-family: 'Karla', sans-serif; }
+      font-family: 'Karla', sans-serif;
+      line-height: 0.85; }
 
 .article-text {
   font-family: 'Lora', serif;
@@ -93,6 +95,10 @@
     width: 100%;
     transform: none;
     margin: 0px;
-    text-align: center; } }
+    text-align: center; }
+
+  #header {
+    background-image: url("../img/header_mobile.jpg");
+    background-position: right; } }
 
 /*# sourceMappingURL=style.css.map */
